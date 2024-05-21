@@ -1,0 +1,401 @@
+:root{
+    --bg-color:#212529;
+    --primary-color: #0000ff;
+    --white-colo: #ffffff;
+    --span-colo:;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px 100px;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: #ffffff;
+    justify-content: space-between;
+    
+}
+span{
+color: #ffc107;
+}
+h2{
+    font-size: 3rem;
+    height: 20%;
+    margin-right: 20%;
+}
+.imagem{
+    width:50%;
+    height: 50%;
+    margin-right: 10rem;
+    margin-top: 10.5rem;
+}
+.imagem2{
+    width:1px;
+    height:1px;
+    margin-right: 10rem;
+    margin-top: 10.5rem;
+}
+nav a{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    text-align: right;
+    align-items: center;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    opacity: 0.5;
+}
+
+.banner{
+    background-color: var(--bg-color);
+    display: flex;
+    width: 100%;
+    height: 800px;  
+
+}
+.banner2{
+    background-color:#ffffff;
+    display: flex;
+    width: 100%;
+    height: 800px;  
+
+}
+.texto-banner{
+    width: 45%;
+    color:#ffffff;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: auto;
+    text-align: left;
+}
+.texto-banner2{
+    width: 45%;
+    color:#ffffff;
+    margin-top: 8%;
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: left;
+}
+.texto-banner p{
+    font-size: 2rem;
+}
+
+.texto-banner a{
+    color: white;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+}
+
+
+.texto-banner a:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+
+}
+.New{
+    width: 70%;
+    margin: 0px  auto;
+    margin-bottom: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    width:100%;
+    height:200px;  
+}
+main h2{
+    margin-bottom: 10px;
+}
+
+.email{
+   display: flex;
+   margin-left: 40%;
+   align-items: center;
+      
+
+}
+
+h3{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+}
+h4{
+    font-size: 2rem;
+    color: white;
+    margin-top: 3%;
+    align-items: center;
+}
+.cartoes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+   
+}
+
+.cartao{
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 400px;
+    background-color:black;
+    color: white;
+}
+    
+
+.cartao2{
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    background-color: grey;
+    color: white;
+   
+}
+.cartao3{
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 400px;
+    background-color:black;
+    color: white;
+}
+
+.cartao4{
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 400px;
+    background-color:white;
+    color: white;
+}
+.cartao img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.cartao-img2{
+    font-size: 20px;
+    align-items: center;
+    height: 0.5px;
+    width: 20px;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 30%;
+}
+
+h5{
+    font-size: 2rem;
+    color: gray;
+    align-items: center;
+}
+
+h6{
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 3%;
+    align-items: center;
+}
+
+h7{
+    font-size: 2rem;
+    color: white;
+    margin-top: 3%;
+    align-items: center;
+}
+
+
+.imagem3{
+    width:50%;
+    height: 50%;
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+
+.New2{
+    width: 70%;
+    margin: 0px  auto;
+    margin-bottom: 100px;
+    background-color: blue;
+    display: flex;
+    width:100%;
+    height:1000px;  
+}
+
+
+h8{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.programadores{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 30%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cartao5{
+    text-align: center;
+    padding: 15px;
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    color: black;
+    margin-left: -60%;
+    margin-top: 20%;
+}
+
+.cartao6{
+    text-align: center;
+    padding: 15px;
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    color: black;
+    margin-left: 140%;
+    margin-top: -117%;
+}
+
+.banner3{
+    background-color:white;
+    display: flex;
+    width: 100%;
+    height: 500px;  
+
+}
+
+.contactos{
+    margin-left: 45%;
+    font-size: 2rem;
+    padding: 50px, 100px;
+    
+}
+
+.banner4{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 150px;  
+
+}
+
+.texto-banner3{
+    font-size: 1rem;
+    margin-left: 30%;
+    color: white;
+}
+/*Pagina contacto*/
+
+#bg-contacto{
+    background-color: brown;
+}
+
+.container-form{
+
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.container-form h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.04);
+    transition: all 350ms ease-in;
+
+}
+
+.sucesso{
+text-align: center;
+}
+
+.sucesso h3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.sucesso h2{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
